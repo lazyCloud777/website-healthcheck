@@ -6,6 +6,7 @@ URL = "https://nubxxxs.com/"
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 
+# dw
 def notify(message):
     requests.post(
         f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
